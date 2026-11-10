@@ -16,4 +16,6 @@ let vals=[['Property price',a.s.price,b.s.price],['Down payment',a.s.price*a.s.d
 function moneyOrYears(label,n){return label.includes('years')?n.toFixed(1):money(n)}
 function draw(a,b){let c=$('chart'),ctx=c.getContext('2d'),W=c.width,H=c.height;ctx.clearRect(0,0,W,H);let max=Math.max(a.principal,b?b.principal:0,1),maxY=Math.max(a.periods,b?b.periods:0,1);ctx.strokeStyle='#dce5f0';ctx.lineWidth=1;for(let k=0;k<=4;k++){let y=12+k*(H-35)/4;ctx.beginPath();ctx.moveTo(55,y);ctx.lineTo(W-12,y);ctx.stroke();ctx.fillStyle='#607086';ctx.font='13px Arial';ctx.fillText(money(max*(1-k/4)),2,y+4)}for(let [r,color] of (b?[[a,'#1757b6'],[b,'#e57a30']]:[[a,'#1757b6']])){ctx.strokeStyle=color;ctx.lineWidth=3;ctx.beginPath();let pts=[{year:0,balance:r.principal},...r.rows.map(x=>({year:x.year,balance:x.balance}))];pts.forEach((p,i)=>{let x=55+p.year/maxY*(W-70),y=12+(1-p.balance/max)*(H-35);i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.stroke()}}
 $('compareToggle').addEventListener('change',render);$('country').addEventListener('change',render);$('scenarios').addEventListener('input',render);$('scenarios').addEventListener('change',render);render();
-</script></body></html>
+</script>
+<script src="https://nnekaanadu-art.github.io/shared-footer.js" defer></script>
+</body></html>
