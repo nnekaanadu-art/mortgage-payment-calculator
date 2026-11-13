@@ -104,3 +104,6 @@ The prototype is not affiliated with a financial institution or intended to repr
 **Created by Nneka Anadu**
 
 [View My Product Leadership Portfolio](https://nnekaanadu-art.github.io/) | [Connect on LinkedIn](https://www.linkedin.com/in/NnekaAnadu)
+
+
+© 2026 Nneka Anadu. All rights reserved.
