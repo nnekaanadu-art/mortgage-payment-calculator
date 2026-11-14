@@ -62,7 +62,7 @@ Review estimated repayment schedules and long-term borrowing costs.
 
 **Mortgage Balance Visualization**
 
-Use an interactive amortization chart to understand how the outstanding mortgage balance changes over time.
+The amortization chart updates as you change the mortgage inputs and shows both balance curves when comparison mode is on.
 
 **Mortgage Insurance Estimates**
 
