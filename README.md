@@ -159,10 +159,22 @@ Results should not be relied upon for financial decisions. Users should consult 
 
 The prototype is not affiliated with a financial institution and is not intended to represent a production mortgage lending application.
 
+<!-- UNIVERSAL FOOTER START -->
+
 ---
 
-**Product Thinking in Practice**
+<p align="center">
+  <strong>Product Thinking in Practice</strong>
+</p>
 
-[Portfolio Home](https://nnekaanadu-art.github.io/) | [LinkedIn](https://www.linkedin.com/in/NnekaAnadu) | [GitHub](https://github.com/nnekaanadu-art)
+<p align="center">
+  <a href="https://nnekaanadu-art.github.io/">Portfolio Home</a> |
+  <a href="https://www.linkedin.com/in/NnekaAnadu">LinkedIn</a> |
+  <a href="https://github.com/nnekaanadu-art">GitHub</a>
+</p>
 
-© 2026 Nneka Anadu. All rights reserved.
+<p align="center">
+  © 2026 Nneka Anadu. All rights reserved.
+</p>
+
+<!-- UNIVERSAL FOOTER END -->
